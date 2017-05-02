@@ -7,19 +7,29 @@ What my personal reasoning is for and against various systems.
 
 I have been working on many small and large-scale web-apps, sites, and components. In almost 12 years of experience with CSS and all the old and new specifications, at the beginning of every project I am yet again faced with the different design choices to make. Knowing SMACSS, OOCSS and even BEM (and having used those), it is still tough to decide for one way to organize the project at hand.
 
-Of course, different approaches speak to different kinds of peoples with their own needs and worldview on how something should be made or maintained or built with.
+Of course, different approaches speak to different kinds of peoples with their own needs and worldviews on how something should be made or maintained or built with.
 
 ## Tools and Abstractions
 
-Whenever a new framework or library comes around, I am astonished of all the opportunities opened by combining different styles and laying them out in a clever way with whatever naming convention is trendy at the moment. To ease development.
+Whenever a new framework or library comes around, I am astonished of all the opportunities discovered by combining different styles and laying them out in a clever way with whatever naming convention is trendy at the moment. To ease development.
 
 When I first discovered attribute selectors in conjunction with flexbox ([flexproperties](https://www.npmjs.com/package/flexproperties)), I was obsessed how a few HTML attributes can ease working with layouts and hide the CSS required for it.
 
 But in the end, it is just smart re-use of what already is there: The CSS specification at its core. CSS Properties and rules.
 
+However, **this is your job** as front-end developer. Creating new tools and using existing ones and combining those.
+
+## Frameworks
+
+I rarely use monolithic frameworks like foundation, bootstrap, material or pagekit. At least not all of it. The theming and layout needs of projects differ so much, that rarely one tool solves all the problems. Most of the time you end up overwriting most of the styles. This leads to the effect that you have more filesize than required. I need to be able to pick only the components that I require and configure them the way I need them.
+
 ## Code output
 
 Mixins/Extend
+
+## Components
+
+Requirements for components
 
 ## De/Coupling
 
