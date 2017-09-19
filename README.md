@@ -21,7 +21,7 @@ However, **this is your job** as front-end developer. Creating new tools and usi
 
 ## Frameworks
 
-I rarely use monolithic frameworks like foundation, bootstrap, material or pagekit. At least not all of it. The theming and layout needs of projects differ so much, that rarely one tool solves all the problems. Most of the time you end up overwriting most of the styles. This leads to the effect that you have more filesize than required. I need to be able to pick only the components that I require and configure them the way I need them.
+I rarely use monolithic frameworks like foundation, bootstrap, material or ui-kit. At least not all of it. The theming and layout needs of projects differ so much, that rarely one tool solves all the problems. Most of the time you end up overwriting most of the styles. This leads to the effect that you have more filesize than required. I need to be able to pick only the components that I require and configure them the way I need them.
 
 ## Code output
 
@@ -29,7 +29,12 @@ Mixins/Extend
 
 ## Components
 
-Requirements for components
+### Requirements for components
+
+#### Section
+
+
+
 
 ## De/Coupling
 
@@ -96,7 +101,7 @@ We could require `.card` in order to apply styling to `.title`. But what if we h
 The only way here now is to provide
 ```less
 .card {
-    .card--title {
+    &__title {
         margin-top: 0; //reset base margin
     }
 }
